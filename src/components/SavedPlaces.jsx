@@ -16,12 +16,11 @@ const SavedPlaces = () => {
   };
 
   return (
-    <div className="custom">
-      <Container className="py-5">
-        <Row className="justify-content-center">
+    <div className="custom py-5">
+      <Container className="custom-background-color rounded ">
+        <Row className="justify-content-center py-3">
           <Col sm={12} md={6}>
             <ListGroup>
-              {/* <ul style={{ listStyle: "none" }}> */}
               {savedPlaces.map((city, i) => (
                 <ListGroup.Item
                   key={i}
@@ -49,7 +48,6 @@ const SavedPlaces = () => {
                   </div>
                 </ListGroup.Item>
               ))}
-              {/* </ul> */}
             </ListGroup>
           </Col>
         </Row>
