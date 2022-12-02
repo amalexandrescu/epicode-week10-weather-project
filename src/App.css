@@ -51,24 +51,18 @@ a.navbar-links:hover {
 }
 
 #custom-search-button {
-  /* background-color: green; */
-  /* border-radius-left: 0 !important; */
   border-bottom-left-radius: 0 !important;
   border-top-left-radius: 0 !important;
   color: white;
 }
 
 .custom-recent-search {
-  /* height: 100px; */
   width: 40% !important;
-  /* width: 20%; */
   background-color: #203c3f70;
 }
 
 .custom-recent-search-smaller {
-  /* height: 100px; */
   width: 30% !important;
-  /* width: 20%; */
   background-color: #203c3f70;
 }
 
@@ -100,17 +94,8 @@ div#trash-icon-container:hover {
   cursor: pointer;
 }
 
-/* #city-name-container {
-  padding-block: 5px;
-} */
-
 #city-name-container:hover {
   cursor: pointer;
   color: rgb(8, 128, 132);
   font-weight: bold;
 }
-
-/* body {
-  background-color: blue !important;
-  height: 100vh !important;
-} */
