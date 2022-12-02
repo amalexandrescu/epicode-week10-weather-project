@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+a.navbar-links:hover {
+  text-decoration: none;
+}
+
+.custom {
+  height: 93vh;
+  background-color: rgb(8, 128, 132);
+}
+
+.custom-navbar {
+  height: 7vh;
+}
+
+#custom-search-button {
+  /* background-color: green; */
+  /* border-radius-left: 0 !important; */
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  color: white;
+}
+
+.custom-recent-search {
+  /* height: 100px; */
+  width: 40% !important;
+  /* width: 20%; */
+  background-color: #203c3f70;
+}
+
+.custom-recent-search-smaller {
+  /* height: 100px; */
+  width: 30% !important;
+  /* width: 20%; */
+  background-color: #203c3f70;
+}
+
+.weather-icon-div {
+  height: 50px;
+  width: 50px;
+}
+
+.weather-icon-div img {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-thermometer-icon {
+  font-size: 25px;
+  color: rgb(244, 94, 94);
+}
+
+.custom-background-color {
+  background-color: #203c3f70;
+}
+
+#trash-icon-container {
+  color: rgb(233, 80, 80);
+}
+
+div#trash-icon-container:hover {
+  color: rgb(185, 5, 5);
+  cursor: pointer;
+}
+
+/* #city-name-container {
+  padding-block: 5px;
+} */
+
+#city-name-container:hover {
+  cursor: pointer;
+  color: rgb(8, 128, 132);
+  font-weight: bold;
+}
+
+/* body {
+  background-color: blue !important;
+  height: 100vh !important;
+} */
