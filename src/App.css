@@ -54,6 +54,17 @@ a.navbar-links:hover {
   border-bottom-left-radius: 0 !important;
   border-top-left-radius: 0 !important;
   color: white;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+
+#custom-search-button:hover {
+  background-color: #40484f !important;
+  border-color: #40484f !important;
+}
+
+input[type="text"]:focus {
+  outline: none;
 }
 
 .custom-recent-search {

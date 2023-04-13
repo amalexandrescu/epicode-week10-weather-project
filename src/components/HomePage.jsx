@@ -52,7 +52,6 @@ const HomePage = () => {
             />
             <Button
               className="rounded-right"
-              variant="primary"
               id="custom-search-button"
               onClick={() => {
                 fetchCityData(search);
